@@ -5,7 +5,8 @@ import axios from 'axios';
 import { useState } from 'react';
 import Navbarr from '../Components/Navbarr';
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import Modal from 'react-bootstrap/Modal'; 
+import Banner from '../Components/Banner';
 
 
 
@@ -137,6 +138,7 @@ const Home = () => {
     return (
         <>
             <Navbarr userName={JSON.parse(localStorage.getItem('name'))} userNameRegister={JSON.parse(localStorage.getItem('nameRegister'))} />
+            <Banner />
             <div className='beranda'>
                 <div className='beranda-text'>
                     <h1>Welcome to Travel Addict, {JSON.parse(localStorage.getItem('name'))}</h1>
