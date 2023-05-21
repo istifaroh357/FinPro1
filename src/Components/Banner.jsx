@@ -8,7 +8,7 @@ const Banner = () => {
 
     useEffect(() => {
         axios
-        .get("https://travel-journal-api-bootcamp.do.dibimbing.id/api/v1/banner/c9cb1176-c825-485a-8fb7-de512e0b8503",
+        .get("https://travel-journal-api-bootcamp.do.dibimbing.id/api/v1/banner/1941fafb-0181-4efd-b532-5b666798d724",
         {
             headers: {
                 apiKey: "24405e01-fbc1-45a5-9f5a-be13afcd757c",
