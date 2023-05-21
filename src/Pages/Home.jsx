@@ -7,6 +7,7 @@ import Navbarr from '../Components/Navbarr';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'; 
 import Banner from '../Components/Banner';
+import '../Home.css'
 
 
 
