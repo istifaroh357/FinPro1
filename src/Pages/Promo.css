@@ -1,0 +1,27 @@
+.img-promo-beranda{
+    width: 400px;
+    height: 300px;
+}
+
+.box-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card-diskon{
+    width: 250px;
+    border: solid black 3px;
+    padding: 10px;
+}
+
+.img-card-diskon{
+    width: 200px;
+    height: 250px;
+}
+
+.samping{
+    display: flex;
+    justify-content: center;
+}

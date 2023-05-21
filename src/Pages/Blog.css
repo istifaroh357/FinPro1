@@ -1,0 +1,43 @@
+.form-create-blog{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+.recommendation-blog{
+padding: 10px;
+}
+
+.img-recommendation-blog{
+    width: 90vw;
+    height: 500px;
+    margin: auto;
+}
+
+.display-blog-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-display-blog{
+    text-align: center;
+}
+
+.display-blog{
+    width: 85%;
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.img-display-blog{
+    width: 300px;
+    height: 350px;
+}
+
+label{
+    padding: 5px;
+}
