@@ -139,8 +139,8 @@ const Home = () => {
     return (
         <>
             <Navbarr userName={JSON.parse(localStorage.getItem('name'))} userNameRegister={JSON.parse(localStorage.getItem('nameRegister'))} />
-            <Banner />
             <div className='beranda'>
+                <Banner />
                 <div className='beranda-text'>
                     <h1>Welcome to Travel Addict, {JSON.parse(localStorage.getItem('name'))}</h1>
                     <p>Share and get traveling experience story here, and Promo about Traveling </p>
